@@ -16,6 +16,7 @@ Primero, debes clonar el repositorio del proyecto en tu máquina local:
 
         git clone https://github.com/DanielVerdun/new_scraper.git
         cd new_scraper
+        git checkout main   
    
 3. Crear un entorno virtual
 Es altamente recomendable crear un entorno virtual para evitar conflictos con otras dependencias de proyectos:
