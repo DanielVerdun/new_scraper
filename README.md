@@ -63,3 +63,25 @@ Cuando termines de trabajar, puedes desactivar el entorno virtual:
 
         deactivate
 
+# Pasos para ejecutar en GCP BigQuery:
+
+Para ejecutar la automatizacion en GCP es necesario tener una cuenta en Google Cloud Platform.
+La automatizacion se genera automaticamente configurando los parametros de tu proyecto en el archivo : deploy.sh
+
+Luego de configurar los parametros de tu proyecto debemos modificar el main.py el cual tambien requiere los parametros de tu proyecto. 
+En el main.py necesitamos: 
+# Definir el dataset y la tabla en BigQuery
+    dataset_id = 'your_project_id.your_dataset_id'
+
+Una vez hechas estas configuraciones ejeutamos el deploy.sh:
+Haz que el script sea ejecutable:
+
+    chmod +x deploy.sh
+Ejecuta el script:
+
+    ./deploy.sh
+
+# Verificación de resultados
+Si todo funciona correctamente, deberías ver el procesamiento de las noticias en la terminal y los datos insertados en BigQuery (si configuraste las credenciales de Google Cloud).
+
+Además, el script también puede generar un archivo CSV con los resultados del scraping, dependiendo de cómo esté configurado el código.
