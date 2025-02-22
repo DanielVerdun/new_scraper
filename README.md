@@ -86,3 +86,6 @@ Ejecuta el script:
 Si todo funciona correctamente, deberías ver el procesamiento de las noticias en la terminal y los datos insertados en BigQuery (si configuraste las credenciales de Google Cloud).
 
 Además, el script también puede generar un archivo CSV con los resultados del scraping, dependiendo de cómo esté configurado el código.
+
+# Adicional:
+Adicionalmente se desarrolla un script llamado extraer_html.py Este archivo contendrá el código HTML de la página objetivo, permitiéndonos identificar las etiquetas, clases y atributos relevantes para la implementación del scraping.  
