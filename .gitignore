@@ -1,0 +1,25 @@
+# Ignorar archivos de configuración de entorno
+.env
+.env.*
+
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios de dependencias y compilación
+node_modules/
+vendor/
+build/
+dist/
+
+# Ignorar archivos de compilación de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de logs
+*.log
