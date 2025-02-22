@@ -66,10 +66,10 @@ Scrapea las noticias desde Yogonet.
 Realiza el procesamiento de datos (cuenta de palabras, caracteres, etc.).
 Inserta los datos procesados en BigQuery si está configurado.
 
-6. Verificación de resultados
-Si todo funciona correctamente, deberías ver el procesamiento de las noticias en la terminal y los datos insertados en BigQuery (si configuraste las credenciales de Google Cloud).
+5. Verificación de resultados
+Si todo funciona correctamente, deberías ver el procesamiento de las noticias en la terminal y los datos insertados en CSV o en BigQuery (si configuraste las credenciales de Google Cloud).
 
-Además, el script también puede generar un archivo CSV con los resultados del scraping, dependiendo de cómo esté configurado el código.
+Además, el script también puede generar un archivo CSV con los resultados del scraping con el nombre de "noticias_yogonet_postprocesado.csv"
 
 Desactivación del entorno virtual
 Cuando termines de trabajar, puedes desactivar el entorno virtual:
