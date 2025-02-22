@@ -7,4 +7,4 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu
 
 Python 3.8 o superior: Para verificar tu versión de Python, ejecuta:
 
-python --version
+    python --version
