@@ -1,0 +1,4 @@
+selenium
+pandas
+google-cloud-bigquery
+google-auth
